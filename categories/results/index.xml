@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Results on Project</title>
-    <link>https://jenniferxu1101.github.io/categories/results/</link>
+    <link>/categories/results/</link>
     <description>Recent content in Results on Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jenniferxu1101.github.io/categories/results/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/results/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Prediction</title>
-      <link>https://jenniferxu1101.github.io/results/work12/</link>
+      <link>/results/work12/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/results/work12/</guid>
+      <guid>/results/work12/</guid>
       <description>&lt;p&gt;Random Forest Prediction of Event Outcomes&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Feature Importances</title>
-      <link>https://jenniferxu1101.github.io/results/work13/</link>
+      <link>/results/work13/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/results/work13/</guid>
+      <guid>/results/work13/</guid>
       <description>&lt;p&gt;Random Forest Feature Importances&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Prediction</title>
-      <link>https://jenniferxu1101.github.io/portfolio/work12/</link>
+      <link>/portfolio/work12/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/portfolio/work12/</guid>
+      <guid>/portfolio/work12/</guid>
       <description>&lt;p&gt;Random Forest Prediction of Event Outcomes&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Feature Importances</title>
-      <link>https://jenniferxu1101.github.io/portfolio/work13/</link>
+      <link>/portfolio/work13/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/portfolio/work13/</guid>
+      <guid>/portfolio/work13/</guid>
       <description>&lt;p&gt;Random Forest Feature Importances&lt;/p&gt;</description>
     </item>
     

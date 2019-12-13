@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Project</title>
+    <link>/categories/resources/</link>
+    <description>Recent content in Resources on Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github</title>
+      <link>/resources/work14/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/work14/</guid>
+      <description>&lt;p&gt;Data and results&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Screencast</title>
+      <link>/resources/work15/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/work15/</guid>
+      <description>&lt;p&gt;Youtube Screencast&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/portfolio/work14/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/work14/</guid>
+      <description>&lt;p&gt;Data and results&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Screencast</title>
+      <link>/portfolio/work15/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/work15/</guid>
+      <description>&lt;p&gt;Youtube Screencast&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
