@@ -54,18 +54,33 @@ paginate = 5 #frontpage pagination
   # Nav links in the side bar
   [[menu.main]]
   name = "Home"
-  url = "/"
+  url = "home/"
   weight = 1
 
   [[menu.main]]
-  name = "About"
-  url = "about/"
+  name = "Introduction"
+  url = "intro/"
   weight = 2
 
   [[menu.main]]
-  name = "Get in touch"
-  url = "contact/"
+  name = "Exploratory data analysis"
+  url = "eda/"
   weight = 3
+  
+  [[menu.main]]
+  name = "Method"
+  url = "method/"
+  weight = 4
+  
+  [[menu.main]]
+  name = "Results"
+  url = "results/"
+  weight = 5
+  
+  [[menu.main]]
+  name = "Discussion"
+  url = "discussion/"
+  weight = 6
 
 # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
   [params.writers]
