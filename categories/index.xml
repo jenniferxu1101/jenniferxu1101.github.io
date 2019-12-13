@@ -2,48 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Project</title>
-    <link>https://jenniferxu1101.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jenniferxu1101.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>design</title>
-      <link>https://jenniferxu1101.github.io/categories/design/</link>
+      <title>eda</title>
+      <link>/categories/eda/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/categories/design/</guid>
+      <guid>/categories/eda/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>photography</title>
-      <link>https://jenniferxu1101.github.io/categories/photography/</link>
-      <pubDate>Mon, 25 Dec 2017 19:53:42 +0530</pubDate>
+      <title>Introduction</title>
+      <link>/categories/introduction/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/categories/photography/</guid>
+      <guid>/categories/introduction/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>code</title>
-      <link>https://jenniferxu1101.github.io/categories/code/</link>
-      <pubDate>Tue, 21 Nov 2017 19:50:47 +0530</pubDate>
+      <title>Methods</title>
+      <link>/categories/methods/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jenniferxu1101.github.io/categories/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://jenniferxu1101.github.io/categories/travel/</link>
-      <pubDate>Fri, 05 May 2017 19:44:32 +0530</pubDate>
-      
-      <guid>https://jenniferxu1101.github.io/categories/travel/</guid>
+      <guid>/categories/methods/</guid>
       <description></description>
     </item>
     
