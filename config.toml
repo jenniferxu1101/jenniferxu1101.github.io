@@ -12,10 +12,11 @@ googleAnalytics = ""
   # Use custom.css for your custom styling
   style = "default"
   description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  copyright = "&copy;2019 Advanced data science course"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "We are a team of biostatistics students from the biostatistics department, JHSPH",
+    "Into baseball and biostatistics", 
+    "We aim to contribute to the baseball community with data analysis"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -65,19 +66,9 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Discussion"
   url = "discussion/"
-  
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
 
   [params.social]
   facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
   email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
   github        = "full profile url in github"
   youtube       = "full profile url in youtube"
-  whatsapp      = "wa.me service link"
