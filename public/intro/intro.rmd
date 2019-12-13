@@ -1,14 +1,7 @@
 ---
-date: 2019-12-12
-title: Baseball terminologies
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
-draft: false
+date: "2019-12-12"
+title: "Baseball terminologies"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
 
 # R Markdown
 
