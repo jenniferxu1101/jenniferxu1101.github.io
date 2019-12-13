@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Model</title>
+      <link>https://jenniferxu1101.github.io/portfolio/work9/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jenniferxu1101.github.io/portfolio/work9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What is baseball?</title>
       <link>https://jenniferxu1101.github.io/portfolio/work1/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
@@ -84,21 +93,39 @@
     </item>
     
     <item>
-      <title>Model</title>
-      <link>https://jenniferxu1101.github.io/portfolio/work9/</link>
-      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jenniferxu1101.github.io/portfolio/work9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>rfxwOBA</title>
       <link>https://jenniferxu1101.github.io/portfolio/work10/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jenniferxu1101.github.io/portfolio/work10/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://jenniferxu1101.github.io/portfolio/work11/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jenniferxu1101.github.io/portfolio/work11/</guid>
+      <description>&lt;p&gt;377,050 samples of baseball batted-event data are collected from TODO.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Prediction</title>
+      <link>https://jenniferxu1101.github.io/portfolio/work12/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jenniferxu1101.github.io/portfolio/work12/</guid>
+      <description>&lt;p&gt;Random Forest Prediction of Event Outcomes&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Feature Importances</title>
+      <link>https://jenniferxu1101.github.io/portfolio/work13/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jenniferxu1101.github.io/portfolio/work13/</guid>
+      <description>&lt;p&gt;Random Forest Feature Importances&lt;/p&gt;</description>
     </item>
     
   </channel>
