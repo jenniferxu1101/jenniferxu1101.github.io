@@ -63,9 +63,6 @@ googleAnalytics = ""
   name = "Results"
   url = "results/"
   
-  [[params.navlinks]]
-  name = "Discussion"
-  url = "discussion/"
 
   [params.social]
   facebook      = "full page or profile url in facebook"
