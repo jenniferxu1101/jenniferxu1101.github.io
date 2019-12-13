@@ -1,5 +1,5 @@
-baseurl = "https://example.org/"
-title = "Nederburg"
+baseurl = "https://jenniferxu1101.github.io/"
+title = "Project"
 theme = "hugo-nederburg-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -67,47 +67,32 @@ paginate = 5 #frontpage pagination
   url = "contact/"
   weight = 3
 
-# this will also be in author bio if there is no writer.
-  [params.social]
-  facebook      = "full Social profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  pinterest     = "full profile url in pinterest"
-  rss           = true
-
 # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
   [params.writers]
-    [params.writers."Lukas Herman"]
-    link = "https://lherman.tk"
-    email = "lherman.cs@gmail.com"
-    bio = [
-      "Lukas has a few skills up his sleve. He can fly blindfolded under a bridge while simultanous writing blog posts."
-    ]
-    facebook      = "full lukas profile url in facebook"
-    googleplus    = "full profile url in googleplus"
-    twitter       = "full profile url in twitter"
-    linkedin      = "full profile url in linkedin"
-    stackoverflow = "full profile url in stackoverflow"
-    instagram     = "full profile url in instagram"
-    github        = "full profile url in github"
-    pinterest     = "full profile url in pinterest"
+    [params.writers."Joe Catallini"]
+    email = "jcatall1@jhmi.edu"
+    facebook      = "https://www.facebook.com/joe.cat.5011"
+    github        = "https://github.com/joecat6"
 
-    [params.writers."Göran Svensson"]
-    link = "https://appernetic.io/"
-    email = "goran@molnsys.com"
-    bio = [
-      "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
-    ]
-    facebook      = "full Göran profile url in facebook"
-    googleplus    = "full profile url in googleplus"
-    twitter       = "full profile url in twitter"
-    linkedin      = "full profile url in linkedin"
-    stackoverflow = "full profile url in stackoverflow"
-    instagram     = "full profile url in instagram"
-    github        = "full profile url in github"
-    pinterest     = "full profile url in pinterest"
+    [params.writers."Eric Bridgeford"]
+    email = "ebridge2@jhu.edu"
+    facebook      = "https://www.facebook.com/eric.bridgeford"
+    github        = "https://github.com/ebridge2"
+
+    [params.writers."Brian Gilbert"]
+    email = "bgilber9@jhmi.edu"
+    facebook      = "https://www.facebook.com/brian.gilbert.94"
+    github        = "https://github.com/bjg345"
+    
+        [params.writers."Jennifer Xu"]
+    email = "sxu42@jhmi.edu"
+    facebook      = "https://www.facebook.com/jennifer.xu.5895"
+    github        = "https://github.com/jenniferxu1101"
+    
+    
+    
+    
+    
+    
+    
+    
