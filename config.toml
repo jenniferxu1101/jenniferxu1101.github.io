@@ -1,42 +1,22 @@
-baseurl = "https://jenniferxu1101.github.io/"
+baseurl = "https://jenniferxu1101.github.io"
 title = "Project"
-theme = "hugo-nederburg-theme"
+theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
-
-[privacy]
-  # Google Analytics privacy settings - https://gohugo.io/about/hugo-and-gdpr/index.html#googleanalytics
-  [privacy.googleAnalytics]
-    # set to true to disable service 
-    disable = false
-    # set to true to meet General Data Protection Regulation (GDPR)
-    anonymizeIP = false
-    respectDoNotTrack = false
-    useSessionStorage = false
 
 [params]
-  # Unmark to use post folder for images. Default is static folder.
-  #usepostimgfolder = true
-  slogan = "A fast &amp; secure theme"
-  description = "Describe your website" # meta description
-  # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
-  author = "Göran Svensson"
-  authorLink = "https://appernetic.io/"
-  bio = [
-    "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Describe your website"
+  copyright = "&copy;2016 Your name or company"
+  sidebarAbout = [
+    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
+    "Originally from Toronto, currently based in London."
   ]
-  copyright = [
-    "&copy; 2018 Göran Svensson",
-    "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
-    "A port of Tracks by Compete Themes."
-  ]
-
-
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -44,70 +24,60 @@ paginate = 5 #frontpage pagination
      #
      # What you need to do for the setup?
      #
-     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - set your email address under 'email' below
      # - upload the generated site to your server
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "goran@molnsys.com"
+  email = "you@yoursite.com"
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
 
   # Nav links in the side bar
-  [[menu.main]]
+  [[params.navlinks]]
   name = "Home"
-  url = "home/"
-  weight = 1
+  url = "portfolio/"
+  home = true
 
-  [[menu.main]]
+  [[params.navlinks]]
   name = "Introduction"
   url = "intro/"
-  weight = 2
-
-  [[menu.main]]
+  
+  [[params.navlinks]]
   name = "Exploratory data analysis"
   url = "eda/"
-  weight = 3
   
-  [[menu.main]]
-  name = "Method"
+  [[params.navlinks]]
+  name = "Methods"
   url = "method/"
-  weight = 4
   
-  [[menu.main]]
+  [[params.navlinks]]
   name = "Results"
   url = "results/"
-  weight = 5
   
-  [[menu.main]]
+  [[params.navlinks]]
   name = "Discussion"
   url = "discussion/"
-  weight = 6
+  
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
 
-# Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
-  [params.writers]
-    [params.writers."Joe Catallini"]
-    email = "jcatall1@jhmi.edu"
-    facebook      = "https://www.facebook.com/joe.cat.5011"
-    github        = "https://github.com/joecat6"
-
-    [params.writers."Eric Bridgeford"]
-    email = "ebridge2@jhu.edu"
-    facebook      = "https://www.facebook.com/eric.bridgeford"
-    github        = "https://github.com/ebridge2"
-
-    [params.writers."Brian Gilbert"]
-    email = "bgilber9@jhmi.edu"
-    facebook      = "https://www.facebook.com/brian.gilbert.94"
-    github        = "https://github.com/bjg345"
-    
-        [params.writers."Jennifer Xu"]
-    email = "sxu42@jhmi.edu"
-    facebook      = "https://www.facebook.com/jennifer.xu.5895"
-    github        = "https://github.com/jenniferxu1101"
-    
-    
-    
-    
-    
-    
-    
-    
+  [params.social]
+  facebook      = "full page or profile url in facebook"
+  googleplus    = "full profile url in googleplus"
+  email         = "email@example.com"
+  twitter       = "full profile url in twitter"
+  linkedin      = "full profile url in linkedin"
+  stackoverflow = "full profile url in stackoverflow"
+  instagram     = "full profile url in instagram"
+  github        = "full profile url in github"
+  youtube       = "full profile url in youtube"
+  whatsapp      = "wa.me service link"
