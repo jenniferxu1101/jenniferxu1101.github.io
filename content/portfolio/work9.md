@@ -4,7 +4,7 @@ title = "Model"
 draft = false
 image = "img/method/random_forest.png"
 categories = [ "Methods"]
-weight = 1
+weight = 9
 +++
 
 <!--more-->

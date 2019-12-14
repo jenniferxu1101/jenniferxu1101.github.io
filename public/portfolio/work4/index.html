@@ -7,14 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
-<link rel="stylesheet" href="https://jenniferxu1101.github.io/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
-<link rel="stylesheet" href="https://jenniferxu1101.github.io/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://jenniferxu1101.github.io/css/owl.carousel.css">
-<link rel="stylesheet" href="https://jenniferxu1101.github.io/css/owl.theme.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/owl.carousel.css">
+<link rel="stylesheet" href="/css/owl.theme.css">
 
 
-  <link href="https://jenniferxu1101.github.io/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
 
  
 
@@ -26,8 +26,8 @@
   
 
 
-<link href="https://jenniferxu1101.github.io/css/custom.css" rel="stylesheet">
-<link rel="shortcut icon" href="https://jenniferxu1101.github.io/img/favicon.png">
+<link href="/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="/img/favicon.png">
 
 
 </head>
@@ -37,7 +37,7 @@
           <div class="row row-offcanvas row-offcanvas-left">
               <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
   <div class="sidebar-content">
-    <h1 class="sidebar-heading"><a href="https://jenniferxu1101.github.io">Project</a></h1>
+    <h1 class="sidebar-heading"><a href="/">Project</a></h1>
     
       <p class="sidebar-p">We are a team of biostatistics students from the biostatistics department, JHSPH</p>
     
@@ -47,17 +47,17 @@
     
     <ul class="sidebar-menu">
       
-        <li><a href="https://jenniferxu1101.github.io/portfolio/">Home</a></li>
+        <li><a href="/portfolio/">Home</a></li>
       
-        <li><a href="https://jenniferxu1101.github.io/intro/">Introduction</a></li>
+        <li><a href="/intro/">Introduction</a></li>
       
-        <li><a href="https://jenniferxu1101.github.io/eda/">Exploratory data analysis</a></li>
+        <li><a href="/eda/">Exploratory data analysis</a></li>
       
-        <li><a href="https://jenniferxu1101.github.io/method/">Methods</a></li>
+        <li><a href="/method/">Methods</a></li>
       
-        <li><a href="https://jenniferxu1101.github.io/results/">Results</a></li>
+        <li><a href="/results/">Results</a></li>
       
-        <li><a href="https://jenniferxu1101.github.io/resources/">Resources</a></li>
+        <li><a href="/resources/">Resources</a></li>
       
     </ul>
     <p class="social">
@@ -108,7 +108,7 @@
 <div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
   <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
-  <h1 class="small-navbar-heading"><a href="https://jenniferxu1101.github.io">Project</a></h1>
+  <h1 class="small-navbar-heading"><a href="/">Project</a></h1>
 </div>
 
   <div class="row">
@@ -118,6 +118,8 @@
          <p>Although <em>wOBA</em> is a very useful statistic because it attempts to tie batter outcomes directly to run production, it is still &ldquo;outcome-oriented&rdquo; in that it is purely a function of the batter's game-recorded outcomes. Outcome-oriented statistics are convenient and justifiable in the longterm, but they are not necessarily optimal for player evaluation and the prediction of future results.</p>
 <p>As an analogy, imagine a novice poker player facing off against a professional. Since the game of poker has elements of both luck and skill, it is possible for the novice to beat the professional in a given match. An outcome-oriented analysis would conclude that the novice <em>played better</em> than the professional. But an informed observer would likely be able to recognize that the professional's decisions throughout the game were actually superior, and he just happened to be unlucky.</p>
 <p>In much the same way, a batter's recorded outcomes (single, double, etc.) are the result both of his own actions (hitting the ball and running), and factors outside of his control (defensive quality and stadium factors). Therefore, if we are able to identify the value of <em>batter-based</em> actions, we might arrive at a <em>wOBA</em>-type measure that is a more accurate indicator of batter quality.</p>
+<p>In 2015, a new technology called <a href="https://en.wikipedia.org/wiki/Statcast">Statcast</a> was introduced to Major League Baseball stadiums. The tool uses high-speed cameras to take measurements of ball and player movements during a game. Statcast produces a robust set of data about each baseball play and is a very exciting opportunity for baseball analytics.</p>
+<p>Using Statcast data, we may be able to identify the value of <em>batter-based</em> actions, we might arrive at an expectation of <em>wOBA</em> that is a more accurate indicator of batter quality than <em>wOBA</em> itself, which only considers the outcomes of each play.</p>
 <p>This concept is not new; the analytics firm Statcast calculates a statistic called <a href="http://m.mlb.com/glossary/statcast/expected-woba"><em>xwOBA</em></a>, short for &ldquo;expected wOBA,&rdquo; which attempts to determine the <em>wOBA</em> that could be expected from the batter's contact with the ball, as measured by launch speed, or the velocity at which the ball leaves the bat, and launch angle, or the vertical angle at which the ball leaves the bat. However, to our knowledge the algorithm used to calculate the statistic is not publicly available. We will calculate our own version of expected wOBA which uses many more variables than what Statcast claims to. We believe that one of these variables, sprint speed, should add value to the model because it is a batter-level variable that is an important factor in whether a given batted ball is converted into a single, double, or triple. Another factor that we believe will be important is spray angle, which is an engineered feature that approximates the horizontal angle describing the direction in the field that the ball was hit. We also include other variables <em>outside</em> the batter's control and attempt to marginalize over their league-distribution. It is debatable whether such a procedure should produce better predictions of <em>wOBA</em> than simply omitting those variables from the beginning, but including them allows us to answer independent questions of interest with regard to what external factors affect batting outcomes.</p>
          
       </div>
@@ -128,15 +130,15 @@
           </div>
       </div>
   </div>
-  <script src="https://jenniferxu1101.github.io/js/jquery.min.js"></script>
-<script src="https://jenniferxu1101.github.io/js/bootstrap.min.js"></script>
-<script src="https://jenniferxu1101.github.io/js/jquery.cookie.js"> </script>
-<script src="https://jenniferxu1101.github.io/js/ekko-lightbox.js"></script>
-<script src="https://jenniferxu1101.github.io/js/jquery.scrollTo.min.js"></script>
-<script src="https://jenniferxu1101.github.io/js/masonry.pkgd.min.js"></script>
-<script src="https://jenniferxu1101.github.io/js/imagesloaded.pkgd.min.js"></script>
-<script src="https://jenniferxu1101.github.io/js/owl.carousel.min.js"></script>
-<script src="https://jenniferxu1101.github.io/js/front.js"></script>
+  <script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.cookie.js"> </script>
+<script src="/js/ekko-lightbox.js"></script>
+<script src="/js/jquery.scrollTo.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/front.js"></script>
 
 
 
